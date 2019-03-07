@@ -1,24 +1,5 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Almost no use to following RailsCASTS [Simple OmniAuth](http://railscasts.com/episodes/241-simple-omniauth-revised) steps.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Specially thanks @jasl to help me work out to using with [oauth2id](https://github.com/thape-cn/oauth2id).

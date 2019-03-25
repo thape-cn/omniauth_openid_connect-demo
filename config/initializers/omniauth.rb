@@ -3,7 +3,7 @@
 Rails.application.config.middleware.use OmniAuth::Builder do
   provider :openid_connect,
            name: :openid_connect,
-           scope: [:openid, :phone],
+           scope: %i[openid departments positions main_position],
            response_type: :code,
            uid_field: 'email',
            nonce: false,

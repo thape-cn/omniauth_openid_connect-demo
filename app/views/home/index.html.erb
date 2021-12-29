@@ -1,2 +1,4 @@
 <h1>Testing oauth2id openid connect</h1>
-<%= link_to "Sign in with openid connect", '/auth/openid_connect', data: { turbolinks: false } -%>
+<%= form_tag('/auth/openid_connect', method: 'post') do %>
+  <button type='submit'>Sign in with openid connect</button>
+<% end %>

@@ -23,7 +23,7 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 # bundle config local.omniauth-openid-connect /Users/guochunzhong/git/oss/omniauth_openid_connect/
-gem 'omniauth_openid_connect', git: 'https://github.com/Eric-Guo/omniauth_openid_connect', branch: :master
+gem 'gitlab-omniauth-openid-connect', '~> 0.8.0', require: 'omniauth_openid_connect'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'

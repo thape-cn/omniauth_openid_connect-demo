@@ -1,13 +1,3 @@
-GIT
-  remote: https://github.com/Eric-Guo/omniauth_openid_connect
-  revision: 2e4e487b29c60d45cc2212b30765da15161c4607
-  branch: master
-  specs:
-    omniauth_openid_connect (0.3.5)
-      addressable (~> 2.5)
-      omniauth (>= 1.9, < 3)
-      openid_connect (~> 1.1)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -102,6 +92,10 @@ GEM
     erubi (1.10.0)
     execjs (2.8.1)
     ffi (1.15.5)
+    gitlab-omniauth-openid-connect (0.8.0)
+      addressable (~> 2.7)
+      omniauth (~> 1.9)
+      openid_connect (~> 1.2)
     globalid (1.0.0)
       activesupport (>= 5.0)
     hashie (5.0.0)
@@ -150,10 +144,9 @@ GEM
     nokogiri (1.13.1)
       mini_portile2 (~> 2.7.0)
       racc (~> 1.4)
-    omniauth (2.0.4)
+    omniauth (1.9.1)
       hashie (>= 3.4.6)
       rack (>= 1.6.2, < 3)
-      rack-protection
     openid_connect (1.3.0)
       activemodel
       attr_required (>= 1.0.0)
@@ -175,8 +168,6 @@ GEM
       httpclient
       json-jwt (>= 1.11.0)
       rack (>= 2.1.0)
-    rack-protection (2.1.0)
-      rack
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     rails (7.0.1)
@@ -281,9 +272,9 @@ DEPENDENCIES
   bootsnap (>= 1.9.3)
   byebug
   capybara
+  gitlab-omniauth-openid-connect (~> 0.8.0)
   jbuilder (~> 2.5)
   listen
-  omniauth_openid_connect!
   puma
   rails (~> 7.0.0)
   sass-rails

@@ -92,7 +92,7 @@ GEM
     erubi (1.10.0)
     execjs (2.8.1)
     ffi (1.15.5)
-    gitlab-omniauth-openid-connect (0.8.0)
+    gitlab-omniauth-openid-connect (0.9.1)
       addressable (~> 2.7)
       omniauth (~> 1.9)
       openid_connect (~> 1.2)
@@ -272,7 +272,7 @@ DEPENDENCIES
   bootsnap (>= 1.9.3)
   byebug
   capybara
-  gitlab-omniauth-openid-connect (~> 0.8.0)
+  gitlab-omniauth-openid-connect (~> 0.9.1)
   jbuilder (~> 2.5)
   listen
   puma

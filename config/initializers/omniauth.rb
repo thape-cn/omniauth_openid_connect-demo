@@ -7,7 +7,7 @@ Rails.application.config.middleware.use OmniAuth::Builder do
            response_type: :code,
            uid_field: 'email',
            nonce: false,
-           issuer: 'https://oauth2id.test/',
+           issuer: 'https://oauth2id.test',
            discovery: true,
            # Or get signing key from https://oauth2id.test/oauth/discovery/keys && uncomment below 2 line to disable discovery
            # client_signing_alg: :RS256,

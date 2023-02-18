@@ -8,11 +8,10 @@ require "active_record/railtie"
 require "active_storage/engine"
 require "action_controller/railtie"
 require "action_mailer/railtie"
-#require "action_mailbox/engine"
-#require "action_text/engine"
+# require "action_mailbox/engine"
+# require "action_text/engine"
 require "action_view/railtie"
 # require "action_cable/engine"
-require "sprockets/railtie"
 require "rails/test_unit/railtie"
 
 # Require the gems listed in Gemfile, including any gems
@@ -33,6 +32,5 @@ module OmniauthOpenidConnectDemo
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
-    # OmniAuth.config.request_validation_phase = ::TokenVerifier.new
   end
 end

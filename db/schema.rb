@@ -10,6 +10,6 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_03_10_065434) do
+ActiveRecord::Schema[6.1].define(version: 2021_03_10_065434) do
 
 end

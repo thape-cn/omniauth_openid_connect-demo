@@ -1,5 +1,9 @@
 # WebFinger.url_builder = URI::HTTP # default URI::HTTPS
 
+OmniAuth.config.request_validation_phase do |env|
+  Gitlab::RequestForgeryProtection.call(env)
+end
+
 Rails.application.config.middleware.use OmniAuth::Builder do
   provider :openid_connect,
            name: :openid_connect,

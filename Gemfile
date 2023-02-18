@@ -24,7 +24,6 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 # bundle config local.omniauth-openid-connect /Users/guochunzhong/git/oss/omniauth_openid_connect/
 gem 'omniauth_openid_connect', git: 'https://git.thape.com.cn/rails/omniauth_openid_connect.git', branch: :master
-gem 'omniauth', '~> 1.9'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'

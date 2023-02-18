@@ -1,3 +1,12 @@
+GIT
+  remote: https://git.thape.com.cn/rails/omniauth_openid_connect.git
+  revision: 2cb5e558095c0ea305c78303df5ae2a99addc74b
+  branch: master
+  specs:
+    omniauth_openid_connect (0.6.0)
+      omniauth (>= 1.9, < 3)
+      openid_connect (~> 1.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -97,10 +106,6 @@ GEM
       faraday (>= 1, < 3)
     faraday-net_http (3.0.2)
     ffi (1.15.5)
-    gitlab-omniauth-openid-connect (0.9.1)
-      addressable (~> 2.7)
-      omniauth (~> 1.9)
-      openid_connect (~> 1.2)
     globalid (1.1.0)
       activesupport (>= 5.0)
     hashie (5.0.0)
@@ -278,9 +283,10 @@ DEPENDENCIES
   bootsnap (>= 1.9.3)
   byebug
   capybara
-  gitlab-omniauth-openid-connect (~> 0.9.1)
   jbuilder (~> 2.5)
   listen
+  omniauth (~> 1.9)
+  omniauth_openid_connect!
   puma
   rails (~> 7.0.0)
   sass-rails
